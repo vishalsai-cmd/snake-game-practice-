@@ -1,0 +1,128 @@
+Body{
+    background-color:white;
+    height:95vh;
+    width:95vw;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+}
+#game{
+    background-color:green;
+    width:50rem;
+    height:50rem;
+    display:grid;
+    grid-template-rows: repeat(40,1fr);
+    grid-template-columns: repeat(40,1fr);
+}
+#game1{
+    background-color:green;
+    width:50rem;
+    height:50rem;
+    display:grid;
+    grid-template-rows: repeat(40,1fr);
+    grid-template-columns: repeat(40,1fr);
+}
+.snake{
+    background-color: white;
+    border:0.1vmin solid white;
+    border-radius: 0.3rem;
+}
+.food1{
+    background-color:yellow;
+    border:0.1vmin solid white;
+}
+.food2{
+    background-color:blue;
+    border:0.1vmin solid white;
+}
+.food3{
+    background-color:red;
+    border:0.1vmin solid white;
+}
+/* .obstacle{
+    background-color:white;
+    border-radius:0.6rem;
+} */
+.flex-col{
+    display:flex;
+    flex-direction: column;
+}
+.power{
+    background-color:purple;
+    border-radius:0.3rem;
+}
+#obstacle{
+    background-color: red;
+}
+.nav-bar{
+    justify-content:space-between;
+    width:50rem;
+    background-color: black;
+    color:white;
+    height:6vh;
+}
+.score{
+    font-size:2rem;
+
+}
+.flex-row{
+    display:flex;
+    flex-direction:row;
+}
+.high-score{
+    justify-content:space-around;
+    font-size:2rem;
+
+}
+#countdown{
+    font-size:2rem;
+    margin-right:15vw;
+}
+.up{
+    border-radius: 1.5rem;
+    height:4vh;
+}
+.down{
+    border-radius: 1.5rem;
+    height:4vh;
+
+}
+.right{
+    border-radius: 1.5rem;
+    height:4vh;
+}
+.left{
+    border-radius: 1.5rem;
+    height:4vh;
+}
+.top-nav{
+    background-color: brown;
+    width:50rem;
+}
+.colors{
+    font-size:2rem;
+}
+.up > img{
+    height:2vh;
+    width:2vw;
+}
+.down > img{
+    height:2vh;
+    width:2vw;
+}
+.right > img{
+    height:2vh;
+    width:2vw;
+}
+.left > img{
+    height:2vh;
+    width:2vh;
+}
+@media screen {
+    body{
+        background-color: white;
+    }
+} 
+.greenfood{
+    background-color:green ;
+}
